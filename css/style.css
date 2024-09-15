@@ -1,0 +1,31 @@
+
+body{
+  height: 100vh;
+  font-family: 'Comic Sans MS', sans-serif;
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);}
+.row{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+h1 {
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  color: #000;
+  text-align: center;
+}
+#display{
+  flex-basis: 70%;
+  padding: 10px;
+}
+#Submit{
+  width: 10%;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 10%;
+}
